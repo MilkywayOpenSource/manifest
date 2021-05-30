@@ -8,6 +8,10 @@
   <remote  name="maruos"
            fetch="https://github.com/maruos"
            revision="maru-0.7" />
+  
+  <remote  name="maruosm"
+           fetch="https://github.com/MilkywayOpenSource"
+           revision="maru-0.8" />
 
   <project path="build/make" name="android_platform_build" remote="maruos" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -44,6 +48,11 @@
   <project path="device/htc/pme" name="android_device_htc_pme" remote="maruos" />
   <project path="kernel/htc/msm8996" name="android_kernel_htc_msm8996" remote="maruos" />
   <!-- END pme - HTC 10 -->
+
+  <!-- START beryllium - POCO F1 -->
+  <project path="device/xiaomi/beryllium" name="android_device_xiaomi_beryllium" remote="maruosm" />
+  <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="maruosm" />
+  <!-- END beryllium - POCO F1 -->
 
   <!-- START Sailfish/Marlin - Google Pixel / Google Pixel XL -->
   <project path="device/google/marlin" name="android_device_google_marlin" remote="maruos" />
