@@ -8,7 +8,7 @@ with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the Maru OS trees, use a command like this:
 
-    repo init -u git://github.com/maruos/manifest.git -b maru-0.7
+    repo init -u git://github.com/MilkywayOpenSource/manifest.git -b maru-0.8
 
 Then to sync up:
 
@@ -17,7 +17,7 @@ Then to sync up:
 
 ## Contributing
 
-See the [main Maru OS repository](https://github.com/maruos/maruos) for more
+See the [main Maru OS repository](https://github.com/MilkywayOpenSource/maruos) for more
 info.
 
 ## Licensing
